@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6003018a39d14bcab2906ba60c348620" Name="Diagram1" ZoomLevel="68">
+        <EntityTypeShape EntityType="SeaFoodsModel.Cart" Width="1.5" PointX="7.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SeaFoodsModel.Category" Width="1.75" PointX="0.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SeaFoodsModel.Order" Width="1.5" PointX="10.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SeaFoodsModel.Productdetail" Width="1.5" PointX="4.375" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SeaFoodsModel.User" Width="1.5" PointX="7.75" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="SeaFoodsModel.FK_Cart_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="SeaFoodsModel.FK_Cart_Productdetails" ManuallyRouted="false" />
+        <AssociationConnector Association="SeaFoodsModel.FK_Category_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="SeaFoodsModel.FK_Productdetails_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="SeaFoodsModel.FK_Order_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

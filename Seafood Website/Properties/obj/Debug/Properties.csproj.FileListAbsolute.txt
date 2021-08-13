@@ -1,0 +1,7 @@
+E:\Web\PROJECT\Seafood Website\Properties\obj\Debug\Properties.csproj.CoreCompileInputs.cache
+E:\Web\PROJECT\Seafood Website\Properties\bin\Debug\Properties.exe.config
+E:\Web\PROJECT\Seafood Website\Properties\bin\Debug\Properties.exe
+E:\Web\PROJECT\Seafood Website\Properties\bin\Debug\Properties.pdb
+E:\Web\PROJECT\Seafood Website\Properties\obj\Debug\Properties.exe
+E:\Web\PROJECT\Seafood Website\Properties\obj\Debug\Properties.pdb
+E:\Web\PROJECT\Seafood Website\Properties\obj\Debug\Properties.csproj.AssemblyReference.cache

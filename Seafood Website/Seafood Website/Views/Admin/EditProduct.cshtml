@@ -1,0 +1,82 @@
+﻿@model  Seafood_Website.Models.Productdetail
+@{
+    ViewBag.Title = "CreateProduct";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="col-lg-6">
+    <div class="p-5">
+        <div class="text-center">
+            <h1 class="h4 text-gray-900 mb-4">Edit product</h1>
+        </div>
+        @using (Html.BeginForm("EditProduct", "Admin", FormMethod.Post))
+        {
+            <div class="form-group">
+                @*<input type="" placeholder="Name product">*@
+                <h5>Name</h5>
+                @Html.TextBoxFor(m => m.name, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.name, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @*<input type="" placeholder="Price product">*@
+                <h5>Price</h5>
+                @Html.TextBoxFor(m => m.price, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.price, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @*<input type="" placeholder="Size product">*@
+                <h5>Size</h5>
+                @Html.TextBoxFor(m => m.size, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.size, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @*<input type="" placeholder="Image">*@
+                <h5>image</h5>
+                @Html.TextBoxFor(m => m.imgURL, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.imgURL, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @*<input type="" placeholder="Description">*@
+                <h5>Description</h5>
+                @Html.TextBoxFor(m => m.description, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.description, "", new { @class = "text-danger" })
+            </div>
+            <button type="submit" class="btn btn-primary btn-user btn-block">
+                Submit
+            </button>
+            @*<a href="#" class="btn btn-success btn-icon-split">
+                <span class="icon text-white-50">
+                    <i class="fas fa-check"></i>
+                </span>
+                <span class="text">submit</span>
+            </a>*@
+        }
+
+        @*<div class="form-group">
+            <div class="custom-control custom-checkbox small">
+                <input type="checkbox" class="custom-control-input" id="customCheck">
+                <label class="custom-control-label" for="customCheck">
+                    Remember
+                    Me
+                </label>
+            </div>
+        </div>*@
+
+
+        <hr>
+        @*<a href="index.html" class="btn btn-google btn-user btn-block">
+            <i class="fab fa-google fa-fw"></i> Login with Google
+        </a>
+        <a href="index.html" class="btn btn-facebook btn-user btn-block">
+            <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
+        </a>*@
+        </form>
+        <hr>
+        @*<div class="text-center">
+            <a class="small" href="forgot-password.html">Forgot Password?</a>
+        </div>
+        <div class="text-center">
+            <a class="small" href="register.html">Create an Account!</a>
+        </div>*@
+    </div>
+</div>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SeaFoodsModelStoreContainer" CdmEntityContainer="SeaFoodsEntities1">
+    <EntitySetMapping Name="Carts">
+      <EntityTypeMapping TypeName="SeaFoodsModel.Cart">
+        <MappingFragment StoreEntitySet="Cart">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="quatity" ColumnName="quatity" />
+          <ScalarProperty Name="productdetailsID" ColumnName="productdetailsID" />
+          <ScalarProperty Name="orderID" ColumnName="orderID" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="SeaFoodsModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="imgURL" ColumnName="imgURL" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="subID" ColumnName="subID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="SeaFoodsModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="orderdate" ColumnName="orderdate" />
+          <ScalarProperty Name="deliveryAddress" ColumnName="deliveryAddress" />
+          <ScalarProperty Name="payment" ColumnName="payment" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="cartID" ColumnName="cartID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="paymentMethod" ColumnName="paymentMethod" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="fee" ColumnName="fee" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productdetails">
+      <EntityTypeMapping TypeName="SeaFoodsModel.Productdetail">
+        <MappingFragment StoreEntitySet="Productdetails">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="size" ColumnName="size" />
+          <ScalarProperty Name="imgURL" ColumnName="imgURL" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="categoryID" ColumnName="categoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="SeaFoodsModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="birthday" ColumnName="birthday" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

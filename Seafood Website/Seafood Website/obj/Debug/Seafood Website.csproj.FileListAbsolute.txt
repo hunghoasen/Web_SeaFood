@@ -1,0 +1,83 @@
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\Seafood Website.dll.config
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\Seafood Website.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\Seafood Website.pdb
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\csc.exe
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\csc.exe.config
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\csc.rsp
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\csi.exe
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\csi.exe.config
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\csi.rsp
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.AppContext.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Collections.Immutable.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Console.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Globalization.Calendars.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.IO.Compression.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.IO.FileSystem.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Net.Http.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Net.Sockets.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Reflection.Metadata.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.ValueTuple.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Xml.XPath.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\vbc.exe
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\vbc.exe.config
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\vbc.rsp
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\VBCSCompiler.exe
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\roslyn\VBCSCompiler.exe.config
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\Antlr3.Runtime.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\Microsoft.Web.Infrastructure.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\Newtonsoft.Json.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\System.Web.Helpers.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\System.Web.Mvc.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\System.Web.Optimization.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\System.Web.Razor.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\System.Web.WebPages.Deployment.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\System.Web.WebPages.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\System.Web.WebPages.Razor.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\WebGrease.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\System.Web.Helpers.xml
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\System.Web.Mvc.xml
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\System.Web.Optimization.xml
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\System.Web.Razor.xml
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\System.Web.WebPages.xml
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\System.Web.WebPages.Deployment.xml
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\System.Web.WebPages.Razor.xml
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\Newtonsoft.Json.xml
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\Antlr3.Runtime.pdb
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Web\PROJECT\Seafood Website\Seafood Website\obj\Debug\Seafood Website.csproj.CoreCompileInputs.cache
+E:\Web\PROJECT\Seafood Website\Seafood Website\obj\Debug\Seafood Website.csproj.CopyComplete
+E:\Web\PROJECT\Seafood Website\Seafood Website\obj\Debug\Seafood Website.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\obj\Debug\Seafood Website.pdb
+E:\Web\PROJECT\Seafood Website\Seafood Website\obj\Debug\Seafood Website.csproj.AssemblyReference.cache
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\EntityFramework.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\EntityFramework.SqlServer.dll
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\EntityFramework.xml
+E:\Web\PROJECT\Seafood Website\Seafood Website\bin\EntityFramework.SqlServer.xml
