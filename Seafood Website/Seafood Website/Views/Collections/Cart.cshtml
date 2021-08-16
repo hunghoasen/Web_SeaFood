@@ -42,9 +42,9 @@
                                     <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1"
                                         colspan="1" aria-label="Position: activate to sort column ascending"
                                         style="width: 164px;">Số lượng</th>
-                                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1"
+                                    @*<th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1"
                                         colspan="1" aria-label="Age: activate to sort column ascending"
-                                        style="width: 45px;">Ngày mua</th>
+                                        style="width: 45px;">Ngày mua</th>*@
                                     <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1"
                                         colspan="1" aria-label="Office: activate to sort column ascending"
                                         style="width: 76px;">Giá</th>
@@ -57,14 +57,12 @@
                                 </tr>
                             </thead>
                             <tbody>
-
-                                @*@foreach (var item in Model)
+                                @*get value*@
+                                @foreach (var item in Model) 
                                 {
                                 <tr class="even">
-                                    <td class="sorting_1">Michael Bruce</td>
-                                    <td>@item.PDetail.name</td>
-                                    <td>+item.Quantily</td>
-
+                                    <td class="sorting_1">@item.PDetail.name</td>
+                                    <td>@item.Quantily</td>
                                     <td>@item.PDetail.price</td>
                                     <td>@item.Quantily * @item.PDetail.price</td>
                                     <td>@ViewBag.tatol</td>
@@ -75,24 +73,9 @@
                                         </a>
                                     </td>
                                 </tr>
-                                }*@
-
-                                <tr class="odd">
-                                    <td class="sorting_1">Donna Snider</td>
-                                    <td>Customer Support</td>
-                                    <td>New York</td>
-                                    <td>27</td>
-                                    <td>2011/01/25</td>
-                                    <td>
-                                        <a href="#" class="btn btn-danger btn-circle btn-sm"
-                                           style="margin-left: 10px;">
-                                            <i class="fas fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>
+                                }
 
                             </tbody>
-
                         </table>
 
                     </div>
@@ -103,10 +86,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="grid__item text-right one-third small--one-whole">
+                <div class="grid__item text-right one-third small--one-whole"> @*All total*@
                     <p>
-                        <span class="cart__subtotal-title">Tổng tiền</span>
-                        <span class="h3 cart__subtotal">11,990,000₫</span>
+                        <span class="cart__subtotal-title">Tổng tiền</span> 
+                        <span class="h3 cart__subtotal">@ViewBag.Total</span>
                     </p>
                     <a href="#" class="btn btn-success btn-icon-split">
                         <span class="icon text-white-50">
@@ -115,6 +98,7 @@
                         <span class="text">Thanh toán</span>
                     </a>
                 </div>
+
             </div>
         </div>
     </div>

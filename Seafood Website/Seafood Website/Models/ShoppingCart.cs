@@ -30,6 +30,16 @@ namespace Seafood_Website.Models
             return items.Count;
         }
 
+        public int getQuatily()
+        {
+            int number = 0;
+            foreach(ItemDetailModel i in items)
+            {
+                number += i.Quantily;
+            }
+            return number;
+        }
+
         public double getTotal()
         {
             double total = 0;

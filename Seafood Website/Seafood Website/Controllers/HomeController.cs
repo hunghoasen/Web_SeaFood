@@ -26,10 +26,6 @@ namespace Seafood_Website.Controllers
             return View();
         }
 
-        //public Action AddtoCart()
-        //{
-        //    return View("cart");
-        //}
 
         public ActionResult About()
         {

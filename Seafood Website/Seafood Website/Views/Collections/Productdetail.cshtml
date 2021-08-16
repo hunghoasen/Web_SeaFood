@@ -25,10 +25,12 @@
                     {
                         @*<input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem">*@
                         @Html.HiddenFor(m => m.PDetail.categoryID)
+                        @Html.HiddenFor(m => m.PDetail.name)
+                        @Html.HiddenFor(m => m.PDetail.price)
 
-                        @Html.TextBoxFor(m => m.Quantily, new {@class = "form-control text-center me-3", type = "num", value = "1", style = "max-width: 3rem" })
+                        @Html.TextBoxFor(m => m.Quantily, new { @class = "form-control text-center me-3", type = "num", value = "1", style = "max-width: 3rem" })
 
-                        <button class="btn btn-outline-dark flex-shrink-0" type="button">
+                        <button class="btn btn-outline-dark flex-shrink-0" type="submit">
                             <i class="bi-cart-fill me-1"></i>
                             Add to cart
                         </button>

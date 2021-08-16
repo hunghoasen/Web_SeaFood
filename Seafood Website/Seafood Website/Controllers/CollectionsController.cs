@@ -40,40 +40,40 @@ namespace Seafood_Website.Controllers
         }
 
 
+
+        [HttpPost]
         public ActionResult AddtoCart(ItemDetailModel model)
         {
-            return View("Cart");
+            //check if the client has the session 
+            var sessionID = HttpContext.Session.SessionID;
+            ViewBag.SessionID = sessionID;
+
+            ShoppingCart cart = (ShoppingCart) HttpContext.Session["shoppingcart"];
+
+            if (cart == null) 
+            {
+                //cart == null, the product will be added to the cart
+                cart = new ShoppingCart();
+                cart.AddtoCart(model); // push product to cart
+                HttpContext.Session.Add("shoppingcart",cart); // save on session
+            }
+            else
+            {
+                //if have product in cart don't NULL
+                cart.AddtoCart(model);
+                HttpContext.Session.Add("shoppingcart", cart); // save on session
+            }
+
+            //send list cart in the View
+           List<ItemDetailModel> items = cart.getAllItems();
+            //ViewBag.Shopping = items;
+
+            ViewBag.Total = cart.getTotal();
+
+            ViewBag.QL = cart.getQuatily();
+
+            return View("Cart",items);
         }
-
-        //[HttpPost]
-        //public ActionResult AddtoCart(ItemDetailModel model)
-        //{
-        //    var sessionID = HttpContext.Session.SessionID;
-        //    ViewBag.SessionID = sessionID;
-
-        //    ShoppingCart cart = (ShoppingCart) HttpContext.Session["shoppingcart"];
-
-        //    if (cart == null) 
-        //    {
-        //        // cart == Null
-        //        cart = new ShoppingCart();
-        //        cart.AddtoCart(model); // push product to cart
-        //        HttpContext.Session.Add("shoppingcart",cart); // save on session
-        //    }
-        //    else
-        //    {
-        //        //if have product in cart don't NULL
-        //        cart.AddtoCart(model);
-        //        HttpContext.Session.Add("shoppingcart", cart); // save on session
-        //    }
-
-        //    //send list cart in the View
-        //    List<ItemDetailModel> items = cart.getAllItems();
-
-        //    ViewBag.total = cart.getTotal();
-
-        //    return View("Cart",items);
-        //}
 
 
     }
