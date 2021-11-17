@@ -43,8 +43,8 @@
                                         colspan="1" aria-label="Position: activate to sort column ascending"
                                         style="width: 164px;">Số lượng</th>
                                     @*<th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1"
-                                        colspan="1" aria-label="Age: activate to sort column ascending"
-                                        style="width: 45px;">Ngày mua</th>*@
+                            colspan="1" aria-label="Age: activate to sort column ascending"
+                            style="width: 45px;">Ngày mua</th>*@
                                     <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1"
                                         colspan="1" aria-label="Office: activate to sort column ascending"
                                         style="width: 76px;">Giá</th>
@@ -58,21 +58,23 @@
                             </thead>
                             <tbody>
                                 @*get value*@
-                                @foreach (var item in Model) 
+                                @foreach (var item in Model)
                                 {
-                                <tr class="even">
-                                    <td class="sorting_1">@item.PDetail.name</td>
-                                    <td>@item.Quantily</td>
-                                    <td>@item.PDetail.price</td>
-                                    <td>@item.Quantily * @item.PDetail.price</td>
-                                    <td>@ViewBag.tatol</td>
-                                    <td>
-                                        <a href="#" class="btn btn-danger btn-circle btn-sm"
-                                           style="margin-left: 10px;">
-                                            <i class="fas fa-trash"></i>
-                                        </a>
-                                    </td>
-                                </tr>
+                                    <tr class="even">
+                                        <td class="sorting_1">@item.PDetail.name</td>
+                                        <td>@item.Quantily</td>
+                                        <td>@item.PDetail.price</td>
+                                        <td>@(item.Quantily * item.PDetail.price)</td>
+                                        <td>
+                                            @*<a href="#" class="btn btn-danger btn-circle btn-sm"
+                                               style="margin-left: 10px;">
+                                                <i class="fas fa-trash"></i>
+                                            </a>*@
+                                            @Html.ActionLink("DeleteCart","Delete-Cart",new {id = @item.PDetail.id},new {@class = "btn btn-danger btn-circle btn-sm"})
+                                            @Html.ActionLink("Mua Hàng", "purchases",new {id = item.PDetail.id },new { @class = "btn btn-success btn-icon-split" })
+                                        </td>
+                                    </tr>
+
                                 }
 
                             </tbody>
@@ -80,23 +82,29 @@
 
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-12 col-md-7">
-                        <div class="dataTables_paginate paging_simple_numbers" id="dataTable_paginate">
-                        </div>
-                    </div>
+                @*<div class="row">
+            <div class="col-sm-12 col-md-7">
+                <div class="dataTables_paginate paging_simple_numbers" id="dataTable_paginate">
                 </div>
-                <div class="grid__item text-right one-third small--one-whole"> @*All total*@
+            </div>
+        </div>*@
+
+
+                <div class="grid__item text-right one-third small--one-whole">
+                    @*All total*@
                     <p>
-                        <span class="cart__subtotal-title">Tổng tiền</span> 
-                        <span class="h3 cart__subtotal">@ViewBag.Total</span>
+                        <span class="cart__subtotal-title">Tổng tiền</span>
+                        <span class="h3 cart__subtotal">@ViewBag.Total VND</span>
                     </p>
-                    <a href="#" class="btn btn-success btn-icon-split">
+                   
+                    @*<a href="#" class="btn btn-success btn-icon-split">
                         <span class="icon text-white-50">
                             <i class="fas fa-check"></i>
                         </span>
-                        <span class="text">Thanh toán</span>
-                    </a>
+                        <span class="text">Mua hàng</span>
+                    </a>*@
+
+
                 </div>
 
             </div>

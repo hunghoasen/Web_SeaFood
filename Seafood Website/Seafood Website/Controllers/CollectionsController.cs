@@ -21,25 +21,23 @@ namespace Seafood_Website.Controllers
             return View(productdetails);
         }
 
-
         public ActionResult Productdetail(int id) 
         {
             Productdetail details = ctx.Productdetails.Where(p => p.id == id).SingleOrDefault();
 
-            //List<Productdetail> productdetails = ctx.Productdetails.Take(4).ToList();
+            List<Productdetail> productdetails = ctx.Productdetails.Take(4).ToList();
 
             ItemDetailModel model = new ItemDetailModel()
             {
                 PDetail = details,
                 Quantily = 1,
+                productdetails = productdetails
             };
 
             //ViewBag.detail = details;
 
             return View(model);
         }
-
-
 
         [HttpPost]
         public ActionResult AddtoCart(ItemDetailModel model)
@@ -75,6 +73,35 @@ namespace Seafood_Website.Controllers
             return View("Cart",items);
         }
 
+
+
+
+        [HttpGet]
+        public ActionResult purchases(int id)
+        {
+            Cart cart = ctx.Carts.Where(p => p.id == id).SingleOrDefault();
+
+            ctx.Carts.Add(cart);
+
+            ctx.SaveChanges();
+
+            return View("Successfulpurchase");
+
+        }
+
+        //[HttpPost]
+        //public ActionResult purchases(Cart cart)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        Cart cart_db = ctx.Carts.Where(p => p.id == cart.id).SingleOrDefault();
+        //        ctx.Carts.Add(cart);
+        //        ctx.SaveChanges();
+
+        //        return View("successfulpurchase");
+        //    }
+        //    return RedirectToAction("SuccessfulPurchase");
+        //}
 
     }
 }

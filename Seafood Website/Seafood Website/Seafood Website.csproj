@@ -129,6 +129,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\CollectionsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -3512,6 +3513,15 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img-products\1-ca-dieu-hong-1441007099032-1441100310402.jpg" />
+    <Content Include="Content\img-products\20160704_V-n_B-ch-Tu-c-t-i-v-a-m-n-n-m-i-l-h-p-d-n-cho-b-a-c-m-ngon_2.jpg" />
+    <Content Include="Content\img-products\cangu2-800x600.jpg" />
+    <Content Include="Content\img-products\cua-bien-thit_11c2b92f28594d73a12dc2391e496d6f_master.jpg" />
+    <Content Include="Content\img-products\cua-hoang-de-2.jpg" />
+    <Content Include="Content\img-products\loi-ich-cua-ca-nuc-doi-voi-suc-khoe-cach-chon-ca-nuc-tuoi-cac-mon-ngon-tu-ca-nuc-202102241756195165.jpg" />
+    <Content Include="Content\img-products\Muc-tuoi-lam-cha-muc.jpg" />
+    <Content Include="Content\img-products\upload_34897c1cdf854a2db3db44dab83616da_master.jpg" />
+    <Content Include="Content\img-products\White_shark.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -3792,9 +3802,11 @@
     <Content Include="Views\Shared\_SidbarPartialView.cshtml" />
     <Content Include="Views\Collections\Productdetail.cshtml" />
     <Content Include="Views\Admin\EditProduct.cshtml" />
+    <Content Include="Views\Collections\SuccessfulPurchase.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Cart\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

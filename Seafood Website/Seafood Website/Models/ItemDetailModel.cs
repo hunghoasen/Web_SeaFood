@@ -12,9 +12,19 @@ namespace Seafood_Website.Models
             get; set;
         }
 
+        public List<Productdetail> productdetails
+        {
+            get;
+            set;
+        }
+
         public int Quantily { get; set; }
 
-        public Productdetail Top4product { get; set; }
+
+        public Cart carts
+        {
+            get;set;
+        }
         
     }
 }

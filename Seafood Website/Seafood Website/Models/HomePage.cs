@@ -7,15 +7,9 @@ namespace Seafood_Website.Models
 {
     public class HomePage
     {
-        List<Productdetail> PD
+        public List<Category> categories
         {
             get;set;
         }
-
-        List<Cart> ct
-        {
-            get;set;
-        }
-
     }
 }

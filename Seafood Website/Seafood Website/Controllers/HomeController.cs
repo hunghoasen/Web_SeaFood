@@ -13,28 +13,10 @@ namespace Seafood_Website.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            List<Productdetail> productdetails = cxt.Productdetails.ToList();
+
+            return View(productdetails);
         }
-
-        public ActionResult Details()
-        {
-            return View();
-        }
-
-        public ActionResult Cart()
-        {
-            return View();
-        }
-
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        
 
     }
 }

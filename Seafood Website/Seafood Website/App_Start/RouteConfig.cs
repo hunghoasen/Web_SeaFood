@@ -16,7 +16,7 @@ namespace Seafood_Website
 
             routes.MapRoute(
                 name: "Admin",
-                url: "Boss/{action}/{id}",
+                url: "admin/{action}/{id}",
                 defaults: new { controller = "Admin", action = "Index", id = UrlParameter.Optional }
             );
 

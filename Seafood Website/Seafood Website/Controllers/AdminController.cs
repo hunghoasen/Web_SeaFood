@@ -24,6 +24,8 @@ namespace Seafood_Website.Controllers
             //    new Catgory() {id = 5,name = "ca muc nho",img = "mucnho.jpg",price = "200,000vnd"},
             //};
             //strong type
+            //ViewData[""] = catgories;
+
             List<Productdetail> productdetails = cxt.Productdetails.ToList();
             cxt.SaveChanges();
 
@@ -41,10 +43,12 @@ namespace Seafood_Website.Controllers
         {
             if (ModelState.IsValid)
             {
+                //insert into table productdetail
                 cxt.Productdetails.Add(productdetail);
-                cxt.SaveChanges();
 
-                return View("Index");
+                cxt.SaveChanges(); //save to database
+
+                return RedirectToAction("Index");
             }
 
             return View(productdetail);
@@ -93,6 +97,6 @@ namespace Seafood_Website.Controllers
             return RedirectToAction("Index");
         }
 
-        
+
     }
 }

@@ -39,7 +39,7 @@
                 @*<input type="" placeholder="Description">*@
                 <h5>Description</h5>
                 @Html.TextBoxFor(m => m.description, new { @class = "form-control" })
-                @Html.ValidationMessageFor(m => m.description   , "", new { @class = "text-danger" })
+                @Html.ValidationMessageFor(m => m.description, "", new { @class = "text-danger" })
             </div>
             <button  type="submit" class="btn btn-primary btn-user btn-block">
                 Add
@@ -55,8 +55,6 @@
                 </label>
             </div>
         </div>*@
-
-
         <hr>
         @*<a href="index.html" class="btn btn-google btn-user btn-block">
             <i class="fab fa-google fa-fw"></i> Login with Google
@@ -64,7 +62,6 @@
         <a href="index.html" class="btn btn-facebook btn-user btn-block">
             <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
         </a>*@
-        </form>
         <hr>
         @*<div class="text-center">
             <a class="small" href="forgot-password.html">Forgot Password?</a>
